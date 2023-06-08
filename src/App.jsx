@@ -1,14 +1,11 @@
 import "./App.css";
 import React from "react";
 import {
-  bgMe1Img,
   bgMe2Img,
   bpmImg,
   csharpImg,
   cssImg,
-  dwiImg,
   emailImg,
-  fbImg,
   gdscImg,
   githubImg,
   hardskillImg,
@@ -54,8 +51,6 @@ const App = () => {
           </div>
           <div className="right">
             <img src={bgMe2Img} alt="" className="bgme2" />
-            {/* <img src={bgMe1Img} alt="" className="bgme1" />
-            <img src={dwiImg} alt="" className="me" /> */}
           </div>
         </div>
       </div>
@@ -195,15 +190,15 @@ const App = () => {
         </div>
         <div className="contacts">
           <p className="title">Contact</p>
-          <a href="https://wa.me/ok" className="contact">
+          <a href="https://wa.me/6281354724238" className="contact">
             <img src={waImg} alt="" />
             <p>Whatsapp</p>
           </a>
-          <a href="mailto:ok@gmail.com" className="contact">
+          <a href="mailto:dwiputriandini061@gmail.com" className="contact">
             <img src={emailImg} alt="" />
             <p>Email</p>
           </a>
-          <a href="https://t.me/ok" className="contact">
+          <a href="https://t.me/sandwi21" className="contact">
             <img src={telegramImg} alt="" />
             <p>Telegram</p>
           </a>
@@ -211,20 +206,17 @@ const App = () => {
         <div className="links">
           <p className="title">Link</p>
           <div className="list">
-            <a href="https://github.com/ok">
+            <a href="https://github.com/DwiPutriandini061">
               <img src={githubImg} alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/ok/">
+            <a href="http://www.linkedin.com/in/dwi-putri-">
               <img src={linkedlinkImg} alt="" />
             </a>
-            <a href="https://www.instagram.com/ok/">
+            <a href="https://www.instagram.com/dwisan__cin/">
               <img src={igImg} alt="" />
             </a>
-            <a href="https://www.youtube.com/ok">
+            <a href="https://www.youtube.com/@dwiputri.a5562">
               <img src={youtubeImg} alt="" />
-            </a>
-            <a href="https://www.facebook.com/ok">
-              <img src={fbImg} alt="" />
             </a>
           </div>
         </div>
